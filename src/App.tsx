@@ -2,8 +2,8 @@ import Button from "./components/button"
 
 const App = () => {
   return (
-    <div> 
-      <Button theme="dark" onClick={() => alert('bosta')}>Enviar</Button>
+    <div className="flex justify-center items-center w-screen h-screen"> 
+      <Button theme="dark" onClick={() => alert('Clicked!!!!')}>Click me</Button>
     </div>
   );
 }

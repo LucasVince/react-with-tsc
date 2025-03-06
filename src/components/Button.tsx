@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: FunctionComponent<ButtonProps> = ({ onClick, children }) => {
   return (
-    <button className="bg-slate-950 text-white p-5 rounded-lg" onClick={onClick}>
+    <button className="bg-slate-950 text-white p-2 rounded-md" onClick={onClick}>
       {children}
     </button>
   );
